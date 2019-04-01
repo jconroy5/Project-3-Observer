@@ -1,5 +1,10 @@
 package com.observer;
 
+/*
+WeatherChannel is a type of Observer.
+It refers to TV channels that can subscribe to a local WeatherStation by Channel ID.
+ */
+
 public class WeatherChannel implements WeatherObserver {
 
     private final String name;
