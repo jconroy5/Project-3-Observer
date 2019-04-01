@@ -3,7 +3,8 @@ package com.observer;
 /*
 Forecast is the client. Run it to execute the main method.
 The client creates a WeatherStation called chicago.
-Two example WeatherSubscribers are created and added as Observers to WeatherStation chicago.
+There are three example Observers, 2 WeatherSubscribers and 1 WeatherChannel.
+Each time WeatherStation Chicago is updated, the observers receive a notification by phone number or channel ID.
  */
 
 public class Forecast {
@@ -25,7 +26,7 @@ public class Forecast {
         chicago.setTemp(55);
 
         //Removing WeatherSubscriber Joe
-        System.out.println("\nWeather Station Chicago customer Joe has unsubscribed from the weather station!");
+        System.out.println("\nWeather Station Chicago subscriber Joe has unsubscribed from the weather station!");
         chicago.removeObserver(sub1);
 
         //Updating WeatherStation Chicago again
