@@ -1,4 +1,7 @@
-package com.observer;
+package com.observer.client;
+
+import com.observer.observers.*;
+import com.observer.subject.*;
 
 /*
 Forecast is the client. Run it to execute the main method.
@@ -6,7 +9,6 @@ The client creates a WeatherStation called chicago.
 There are three example Observers, 2 WeatherSubscribers and 1 WeatherChannel.
 Each time WeatherStation Chicago is updated, the observers receive a notification by phone number or channel ID.
  */
-
 public class Forecast {
     public static void main(String[] args) {
         //Creating an example WeatherStation in Chicago, IL

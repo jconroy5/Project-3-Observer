@@ -1,10 +1,11 @@
-package com.observer;
+package com.observer.observers;
+
+import com.observer.subject.WeatherStation;
 
 /*
 WeatherSubscriber is a type of Observer.
 It refers to a user who is subscribed to a local WeatherStation by phone number.
  */
-
 public class WeatherSubscriber implements WeatherObserver {
 
     private final String name;

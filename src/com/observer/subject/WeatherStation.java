@@ -1,4 +1,6 @@
-package com.observer;
+package com.observer.subject;
+
+import com.observer.observers.WeatherObserver;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -8,7 +10,6 @@ WeatherStation is the subject class which contains a set of observers, which can
 A WeatherStation represents a temperature monitoring system at a given location.
 When a new temperature for a WeatherStation is set, observers are notified via weatherUpdate().
  */
-
 public class WeatherStation implements WeatherSubject {
     private Set<WeatherObserver> setOfWeatherObservers;
     private int temp;
