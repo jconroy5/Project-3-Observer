@@ -4,7 +4,7 @@ COMP 373/473 - Project 3 - Observer Pattern - Joseph Conroy and Nigel Castelino
 # To run the client:
 Run Forecast.java, found in 
 ```
-src/com/observer
+src/com/observer/client
 ```
 
 # Project Description:
