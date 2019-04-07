@@ -1,6 +1,10 @@
 # Project 3 - Observer
 COMP 373/473 - Project 3 - Observer Pattern - Joseph Conroy and Nigel Castelino
 
+Our other Project 3 program, using the Bridge Pattern, can be found [here.](https://github.com/jconroy5/Project-3-Bridge)
+
+The complete documentation on both programs can be found [here.](https://docs.google.com/document/d/1h8DvUw8eyynGfdUJAZmWxN4lpiHAYNyYbFiqmiuQmQM/edit?usp=sharing)
+
 # To run the client:
 Run Forecast.java, found in 
 ```
